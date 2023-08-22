@@ -1,0 +1,15 @@
+/* Header.css */
+.header {
+  background-color: #fff;
+  color: white;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}

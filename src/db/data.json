@@ -1,0 +1,8 @@
+{
+	"board" : [
+		{"chatId": 1, "title": "chat1chat1chat1chat1", "content": "gpt에게 질문 - gpt에게 답변111"},
+		{"chatId": 2, "title": "chat2", "content": "gpt에게 질문 - gpt에게 답변222"},
+		{"chatId": 3, "title": "chat3", "content": "gpt에게 질문 - gpt에게 답변333"},
+		{"chatId": 4, "title": "chat4", "content": "gpt에게 질문 - gpt에게 답변444"}
+	]
+}
