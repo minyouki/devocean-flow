@@ -8,7 +8,20 @@
 	font-weight: 600;
 }
 
-.top {
+.common-line {
 	display: flex;
+	height: 0px;
+	border: 1px solid #646464;
+}
 
+.border-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.line-div {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 20px 0
 }

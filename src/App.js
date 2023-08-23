@@ -3,6 +3,8 @@ import Chat from "./pages/Chat";
 import ChatList from './pages/ChatList';
 import ChatHistory from './pages/ChatHistory';
 import Header from "./component/Header"
+import Footer from "./component/Footer"
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
 					<Route path="/list" element={<ChatList />} />
 					<Route path="/chatHistory/:chatId" element={<ChatHistory />} />
 				</Routes>
+				<Footer />
 			</div>
 		</BrowserRouter>
 	);

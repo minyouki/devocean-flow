@@ -1,8 +1,18 @@
 {
 	"board" : [
-		{"chatId": 1, "title": "chat1chat1chat1chat1", "content": "gpt에게 질문 - gpt에게 답변111"},
-		{"chatId": 2, "title": "chat2", "content": "gpt에게 질문 - gpt에게 답변222"},
-		{"chatId": 3, "title": "chat3", "content": "gpt에게 질문 - gpt에게 답변333"},
-		{"chatId": 4, "title": "chat4", "content": "gpt에게 질문 - gpt에게 답변444"}
+		{"chatId": 10, "title": "chat1chat1chat1chat1", "content": "gpt에게 질문 - gpt에게 답변111"},
+		{"chatId": 20, "title": "chat2", "content": "gpt에게 질문 - gpt에게 답변222"},
+		{"chatId": 30, "title": "chat3", "content": "gpt에게 질문 - gpt에게 답변333"},
+		{"chatId": 40, "title": "chat4", "content": "gpt에게 질문 - gpt에게 답변444"},
+		{"chatId": 50, "title": "제목", "content": "내용"}
+	],
+	"chat" : [
+		{"chatId": 10, "role": "user", "content": "질문1", "createdTime":""},
+		{"chatId": 20, "role": "assistant", "content": "답변1", "createdTime": ""},
+		{"chatId": 30, "role": "user", "content": "질문2", "createdTime": ""},
+		{"chatId": 40, "role": "assistant", "content": "답변2", "createdTime": ""},
+		{"chatId": 50, "role": "", "content": "질문3", "createdTime": ""}
 	]
 }
+
+

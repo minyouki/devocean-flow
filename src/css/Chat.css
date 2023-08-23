@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+.top {
+	display: flex;
+
+}
+
+
+
+
+
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+	width: 100%;
+	/* border: 5px solid yellow; */
+}
+
+.chat-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+	width: 80%;
+	height: 95%;
+	/* border: 5px solid blue; */
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/* background-color: #999999; */
+}
+
+.user-area {
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  text-align: left;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	/* border: 3px solid black; */
+}
+
+.user-chat {
+  display: block; /* 변경 */
+  position: relative;
+  background-color: #ff6648;
+  border-radius: 20px;
+  color: #fff;
+  padding: 7px 12px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  word-wrap: break-word; /* 추가: 긴 단어 줄바꿈 처리 */
+	font-size: 20px;
+}
+
+.ass-area {
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  text-align: left;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	/* border: 3px solid green; */
+}
+
+.ass-chat {
+  display: block; /* 변경 */
+  position: relative;
+  background-color: #1044ff;
+  border-radius: 20px;
+  color: #fff;
+  padding: 7px 12px;
+  margin-bottom: 10px;
+  max-width: 900px;
+  word-wrap: break-word; /* 추가: 긴 단어 줄바꿈 처리 */
+	font-size: 20px;
+}
+
+
+
+
+
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	/* border: 5px solid yellow; */
+}
+
+.bottom .input {
+	display: flex;
+	justify-content: center;
+	/* border: 5px solid orange; */
+	width: 80%;
+}
+
+.bottom textarea {
+	width: 70%;
+	max-width: 70%;
+	border: 1px solid #646464;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.bottom input {
+	border: 1px solid #646464;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
